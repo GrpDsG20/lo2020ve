@@ -1,0 +1,84 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+body{
+background:black;
+}
+
+.contenedor{
+	width: 100%;
+	min-height: 100vh;
+	margin: 0 auto;
+
+}
+.contenedor .header h1{
+	font-size: 60px;
+	color:#C73B25;
+	text-align: center;
+	padding-top: 15%;
+
+	
+}
+.contenedor .sino{
+    padding-top:80px;
+    /*para que los botones esten centrados*/
+    float:none;
+	text-align: center;
+
+	
+	
+}
+.contenedor .sino .si{
+	background: #BD650C;
+	padding: 10px 60px;
+	cursor: pointer;
+	color: #C73B25;
+	margin: auto 20px;
+	border-radius: 7px;
+	border:2px solid #B69203;
+    font-size: 20px;
+    font-weight: bold;
+    text-decoration:none;
+	
+
+}
+.contenedor .sino .no{
+	background: #BD650C;
+	color: #C73B25;
+	padding: 10px 60px;
+	cursor: pointer;
+	margin: auto 20px;
+	border-radius: 7px;
+	border:2px solid #B69203;
+	font-weight: bold;
+	 font-size: 20px;
+	 text-decoration:none;
+}
+@media screen and (max-width:992px){
+  .contenedor .header h1{
+		padding-top:35%;
+	}
+	}
+@media screen and (max-width:768px){
+	.contenedor .header h1{
+		padding-top:55%;
+	}
+
+	}
+	@media screen and (max-width:576px){
+	.contenedor .header h1{
+		padding-top:180%;
+	}
+
+	}
+	
+.contenedor .sino .si:hover{
+	background: black;
+}
+
+.contenedor .sino .no:hover{
+  float: left;
+  background: black
+}
